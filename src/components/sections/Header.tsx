@@ -19,7 +19,7 @@ export default function Header() {
         paddingX={"4rem"}
       >
         <Text variant="bigHeader" color="orange">
-          THE RED LINING:
+          THE SILVER LINING:
         </Text>
         <Text variant="subHeader" color="orange" textAlign={"right"} my="-2rem">
           THE PROTECTIVE (AND HURTFUL) POWER OF ZOOS
