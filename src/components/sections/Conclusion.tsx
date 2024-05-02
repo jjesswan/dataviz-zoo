@@ -20,19 +20,24 @@ export default function Conclusion() {
         gap={"2rem"}
         paddingTop={"12rem"}
       >
-        <Text variant="bigNumber"  textAlign={"left"} width={"80%"}>
+        <Text variant="bigNumber" textAlign={"left"} width={"80%"}>
           So... are zoos good or bad?
         </Text>
         <Text variant="body" width={"60%"}>
-          The red panda is slightly larger than a domestic cat with a bear-like
-          body and thick russet fur. The belly and limbs are black, and there
-          are white markings on the side of the head and above its small eyes.
-          Red pandas are very skillful and acrobatic animals that predominantly
-          stay in trees. Almost 50% of the red panda’s habitat is in the Eastern
-          Himalayas. They use their long, bushy tails for balance and to cover
-          themselves in winter, presumably for warmth. Primarily an herbivore,
-          the name panda is said to come from the Nepali word ‘ponya,’ which
-          means bamboo or plant eating animal.
+          It is difficult to conclude whether zoos are truly “good” or “bad” for
+          at-risk species. On one hand, zoos provide a safe environment for
+          animals to thrive with regulated temperatures, habitats, and food
+          sources. On the other hand, we must consider other internal and
+          external stresses exerted on animals that are held captive, as well as
+          the inherent focus on profit for most zoos and aquariums across the
+          United States. We see that in every state, there exists some type of
+          animal conservatory — whether in the form of zoos, aquariums, or other
+          wildlife protection habitats — showing that zoos are also an important
+          aspect of human culture and the ability to observe the animals that
+          populate our world. While many factors come into play, often specific
+          to the facility itself, it is important to prioritize the protection
+          and conservation of these animals, rather than exploiting their lives
+          for entertainment.
         </Text>
 
         <Stat text="213 accredited zoos, aquariums, and related facilities in 46 states and D.C"></Stat>

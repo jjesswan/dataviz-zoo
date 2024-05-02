@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { Button, ButtonGroup, Flex, Text, Image } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 import customTheme from "../../styles/theme";
+import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
+
 
 interface ImageProps{
     src: string,
@@ -13,7 +14,7 @@ export default function MyImage(props: ImageProps) {
   return (
     <Flex
       justifyContent={"space-between"}
-      alignItems={"center"}
+      alignItems={"right"}
       w="90vw"
       marginLeft={"10rem"}
       role="banner"
@@ -22,8 +23,14 @@ export default function MyImage(props: ImageProps) {
       paddingY={"2rem"}
       flexDir={"column"}
     >
-        <Image src={props.src} />
-        <Text variant="body">Source: {props.captionDesc}</Text>
+      <Image src={props.src} />
+      <ChakraLink
+        variant="sourceLink"
+        href={props.captionLink}
+        target="_blank"
+      >
+        Source: {props.captionDesc}
+      </ChakraLink>
     </Flex>
   );
 }

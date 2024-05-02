@@ -38,7 +38,7 @@ export default function Navbar() {
       >
         <HashLink smooth to="/#top" variant="navLink" pr="0">
           <ChakraLink>
-            <TiHome color="#CB5E21" size={"2rem"} />
+            <TiHome color="#E1580B" size={"2rem"} />
           </ChakraLink>
         </HashLink>
         <HashLink smooth to="/#one" variant="navLink" pr="0">
@@ -52,7 +52,7 @@ export default function Navbar() {
         </HashLink>
         <HashLink smooth to="/#credit" variant="navLink" pr="0">
           <ChakraLink>
-            <TiInfoLarge color="#CB5E21" size={"2rem"} />
+            <TiInfoLarge color="#E1580B" size={"2rem"} />
           </ChakraLink>
         </HashLink>
       </Flex>

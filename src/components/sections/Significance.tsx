@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { Button, ButtonGroup, Flex, Text, Image } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
 import customTheme from "../../styles/theme";
+import { Link as ChakraLink, LinkProps } from "@chakra-ui/react";
+
 
 export default function Significance() {
   return (
@@ -23,15 +24,27 @@ export default function Significance() {
           Why does this matter?
         </Text>
         <Text variant="body">
-          The red panda is slightly larger than a domestic cat with a bear-like
-          body and thick russet fur. The belly and limbs are black, and there
-          are white markings on the side of the head and above its small eyes.
-          Red pandas are very skillful and acrobatic animals that predominantly
-          stay in trees. Almost 50% of the red panda’s habitat is in the Eastern
-          Himalayas. They use their long, bushy tails for balance and to cover
-          themselves in winter, presumably for warmth. Primarily an herbivore,
-          the name panda is said to come from the Nepali word ‘ponya,’ which
-          means bamboo or plant eating animal.
+          <b>Zoos</b> play a crucial role in breeding programs to safeguard
+          against extinction. Challenges in conservation stem from the specific
+          requirements of red pandas' habitats, which are increasingly scarce
+          due to human activities. The Smithsonian's National Zoo has been
+          instrumental in conservation efforts, while the International Union
+          for Conservation of Nature emphasizes habitat protection, reducing
+          threats, and raising awareness as key strategies for red panda
+          conservation. However, interestingly, the maximum life expectancy of
+          animals held captive in zoos is significantly shorter than the same
+          life expectancy found in wild habitats – including the case for red
+          pandas. This poses a compelling dilemma: are zoos beneficial or
+          detrimental to critically endangered species, especially as more and
+          more species have become at risk in the past 20 years? 
+          
+          <ChakraLink
+            variant="sourceLink"
+            href="https://nationalzoo.si.edu/animals/red-panda#:~:text=Red%20pandas%20are%20endangered%20and,over%20the%20past%20two%20decades"
+            target="_blank"
+          >
+            Source.
+          </ChakraLink>
         </Text>
       </Flex>
     </div>

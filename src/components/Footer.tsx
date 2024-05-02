@@ -5,7 +5,7 @@ import customTheme from "../styles/theme";
 
 export default function Footer() {
   return (
-    <div id="credits">
+    <div id="credit">
       <Flex
         alignItems={"flex-start"}
         w="90vw"
@@ -16,7 +16,7 @@ export default function Footer() {
         paddingY={"5rem"}
         flexDir={"column"}
       >
-        <Text variant="body">
+        <Text variant="body" color="white">
           Jessica Wan 2024 <br></br>
           Crafted for DATA1500 <br></br>
           Brown University

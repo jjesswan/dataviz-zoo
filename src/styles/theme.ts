@@ -1,4 +1,4 @@
-import { extendTheme, ThemeConfig, useColorModeValue } from "@chakra-ui/react";
+import { extendTheme, textDecoration, ThemeConfig, useColorModeValue } from "@chakra-ui/react";
 import "@fontsource/inria-sans/300.css";
 import "@fontsource/inria-sans/400.css";
 import "@fontsource/inria-sans/700.css";
@@ -16,7 +16,7 @@ const colors = {
   brown: "#5D3011",
   offWhite: "#F8F8F8",
 
-  orange: "#CB5E21",
+  orange: "#E1580B",
 };
 
 const fonts = {
@@ -72,16 +72,16 @@ const components = {
           transition: "all 0.4s",
         },
       }),
-      embedLink: () => ({
+      sourceLink: () => ({
         fontFamily: fonts.body,
-        fontWeight: "500",
-        letterSpacing: "-.05rem",
-        textDecoration: "underline",
+        fontSize: ".8rem",
+        textAlign: "right",
+        color: colors.orange,
+        fontStyle: "italic",
+        textDecoration: "none",
         transition: "all 0.4s",
-        color: colors.yellow,
-        paddingX: ".2rem",
         _hover: {
-          color: "lightGrey",
+          color: "white",
           transition: "all 0.4s",
         },
       }),
@@ -124,7 +124,7 @@ const components = {
         fontFamily: fonts.body,
         fontSize: ".8rem",
         textAlign: "justify",
-        color: "white",
+        color: "#B8B8B8",
       }),
     },
   },

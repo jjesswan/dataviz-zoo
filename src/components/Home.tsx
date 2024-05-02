@@ -16,20 +16,20 @@ export default function Home() {
       <RedPanda />
       <MyImage
         src="images/ggplot_lifespan.png"
-        captionDesc="hello"
-        captionLink="hello"
+        captionDesc="AnAge & AZA Animal Lifespans"
+        captionLink="https://www.kaggle.com/datasets/mattop/anage-animal-ageing-and-longevity-data"
       ></MyImage>
       <Significance />
       <MyImage
         src="images/endangered_ggplot.png"
-        captionDesc="hello"
-        captionLink="hello"
+        captionDesc="IUCN Redlist Changes, Data World"
+        captionLink="https://data.world/project-data-viz/iucn-redlist-changes-2002-to-2022-pdv-10-2022"
       ></MyImage>
       <Conclusion />
       <MyImage
         src="images/ggplot_map.png"
-        captionDesc="hello"
-        captionLink="hello"
+        captionDesc="Kaggle Museum Directory in the U.S."
+        captionLink="https://www.kaggle.com/datasets/imls/museum-directory"
       ></MyImage>
 
       <Footer />
