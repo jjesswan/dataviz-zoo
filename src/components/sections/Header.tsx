@@ -18,11 +18,23 @@ export default function Header() {
         aria-label="banner"
         paddingX={"4rem"}
       >
-        <Text variant="bigHeader" color="orange">
-          THE SILVER LINING:
+        <Flex gap="1rem">
+          <Text variant="bigHeader" color="orange">
+            The
+          </Text>
+          <Text variant="bigHeader" color="lightGrey">
+            Silver
+          </Text>
+          <Text variant="bigHeader" color="orange">
+            Lining
+          </Text>
+        </Flex>
+       
+        <Text variant="medHeader" color="orange" textAlign={"right"} mt="-2rem">
+          The Protective (and Hurtful) Power of Zoos
         </Text>
-        <Text variant="subHeader" color="orange" textAlign={"right"} my="-2rem">
-          THE PROTECTIVE (AND HURTFUL) POWER OF ZOOS
+        <Text variant="subHeader" textAlign={"right"} color="lightGrey">
+          A Data-Driven Analysis of Zoos' Impact on Endangered Species Maximum Life Expectancy (MLE)
         </Text>
       </Flex>
     </div>

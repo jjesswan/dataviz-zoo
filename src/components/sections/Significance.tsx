@@ -43,7 +43,7 @@ export default function Significance() {
             href="https://nationalzoo.si.edu/animals/red-panda#:~:text=Red%20pandas%20are%20endangered%20and,over%20the%20past%20two%20decades"
             target="_blank"
           >
-            Source.
+            &nbsp;Source.
           </ChakraLink>
         </Text>
       </Flex>

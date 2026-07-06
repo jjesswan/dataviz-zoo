@@ -21,7 +21,7 @@ export default function Stat(props: StatProps) {
   return (
     <Stack direction="row" width={"100%"}>
       <Divider
-        borderColor="white"
+        borderColor="grey"
         borderWidth=".1rem"
         opacity={1}
         borderStyle="solid"

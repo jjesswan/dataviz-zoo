@@ -6,6 +6,8 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
+    "@fontsource-variable/noto-serif-georgian": "^5.2.9",
+    "@fontsource-variable/vollkorn": "^5.2.10",
     "@fontsource/bagel-fat-one": "^5.0.4",
     "@fontsource/balsamiq-sans": "^5.0.18",
     "@fontsource/inria-sans": "^5.0.13",
