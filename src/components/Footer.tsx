@@ -8,18 +8,15 @@ export default function Footer() {
     <div id="credit">
       <Flex
         alignItems={"flex-end"}
-        w="90vw"
-        marginLeft={"10rem"}
-        role="banner"
-        aria-label="banner"
-        paddingX={"15rem"}
-        paddingY={"5rem"}
+        w="100%"
+        role="credits"
+        aria-label="credits"
         flexDir={"column"}
+        px="2rem"
+        mb="1rem"
       >
         <Text variant="subtitle" color="white" fontWeight="600" fontSize=".7rem">
           Credits
-
-          
         </Text>
         <Flex>
            <Text variant="subtitle" color="white" fontSize=".7rem">

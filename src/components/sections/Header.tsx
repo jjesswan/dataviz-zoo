@@ -10,30 +10,29 @@ export default function Header() {
       <Flex
         minHeight={"100vh"}
         justifyContent={"center"}
-        alignItems={"flex-end"}
+        alignItems={{lg: "flex-end", base: "center"}}
         flexDir={"column"}
-        w="90vw"
-        marginLeft={"10rem"}
-        role="banner"
-        aria-label="banner"
-        paddingX={"4rem"}
+        w="100%"
+        role="header"
+        aria-label="header"
+        pr={{lg: "2rem", base: "0rem"}}
       >
-        <Flex gap="1rem">
-          <Text variant="bigHeader" color="orange">
+        <Flex gap={{md: "1rem", base: "0rem"}} flexDir={{md:"row", base: "column"}}>
+          <Text variant="bigHeader" color="orange" textAlign={{md: "right", base: "center"}}>
             The
           </Text>
-          <Text variant="bigHeader" color="lightGrey">
+          <Text variant="bigHeader" color="lightGrey" textAlign={{md: "right", base: "center"}}>
             Silver
           </Text>
-          <Text variant="bigHeader" color="orange">
+          <Text variant="bigHeader" color="orange" textAlign={{md: "right", base: "center"}}>
             Lining
           </Text>
         </Flex>
        
-        <Text variant="medHeader" color="orange" textAlign={"right"} mt="-2rem">
+        <Text variant={{md: "medHeader", base: "subHeader"}} color="orange" textAlign={{md: "right", base: "center"}} mt="1rem">
           The Protective (and Hurtful) Power of Zoos
         </Text>
-        <Text variant="subHeader" textAlign={"right"} color="lightGrey">
+        <Text variant="subHeader" textAlign={{md: "right", base: "center"}} color="lightGrey" px="2rem" mt="1rem">
           A Data-Driven Analysis of Zoos' Impact on Endangered Species Maximum Life Expectancy (MLE)
         </Text>
       </Flex>

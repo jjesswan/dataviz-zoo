@@ -18,10 +18,11 @@ export default function Navbar() {
       aria-label="desktop navigation"
       bg="transparent"
       height="100vh"
-      width="10rem"
+      width="8rem"
       flexDir={"column"}
       justifyContent={"center"}
       alignItems={"center"}
+
     >
       <Flex
         justifyContent={"center"}
@@ -32,13 +33,13 @@ export default function Navbar() {
         borderRadius={"5rem"}
         borderColor={"orange"}
         borderWidth={"1px"}
-        paddingX={"1rem"}
+        paddingX={".5rem"}
         backdropFilter="blur(30px)"
         gap=".5rem"
       >
         <HashLink smooth to="/#top" variant="navLink" pr="0">
           <ChakraLink>
-            <TiHome color="#E1580B" size={"2rem"} />
+            <TiHome color="#E1580B" size={"1.5rem"} />
           </ChakraLink>
         </HashLink>
         <HashLink smooth to="/#one" variant="navLink" pr="0">
@@ -52,7 +53,7 @@ export default function Navbar() {
         </HashLink>
         <HashLink smooth to="/#credit" variant="navLink" pr="0">
           <ChakraLink>
-            <TiInfoLarge color="#E1580B" size={"2rem"} />
+            <TiInfoLarge color="#E1580B" size={"1.5rem"} />
           </ChakraLink>
         </HashLink>
       </Flex>

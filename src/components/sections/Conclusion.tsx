@@ -10,20 +10,17 @@ export default function Conclusion() {
       <Flex
         justifyContent={"space-between"}
         alignItems={"flex-start"}
-        w="90vw"
-        marginLeft={"10rem"}
-        role="banner"
-        aria-label="banner"
-        paddingX={"15rem"}
-        paddingY={"2rem"}
+        w="100%"
+        px={{lg: "20rem", md: "10rem", base: "2rem"}}
+        role="section3"
+        aria-label="section3"
         flexDir={"column"}
-        gap={"2rem"}
-        paddingTop={"12rem"}
+        gap="2rem"
       >
-        <Text variant="bigNumber" textAlign={"left"} width={"80%"}>
+        <Text variant="bigNumber" textAlign={{md: "left"}} width={"80%"}>
           So... are zoos good or bad?
         </Text>
-        <Text variant="body" width={"60%"}>
+        <Text variant="body" width={{md: "60%", base: "100%"}}>
           It is difficult to conclude whether zoos are truly “good” or “bad” for
           at-risk species. On one hand, zoos provide a safe environment for
           animals to thrive with regulated temperatures, habitats, and food

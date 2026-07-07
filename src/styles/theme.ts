@@ -23,7 +23,7 @@ const components = {
       navLink1: () => ({
         fontFamily: fonts.heading,
         fontWeight: "800",
-        fontSize: "2rem",
+        fontSize: "1.5rem",
         color: "orange",
         lineHeight: "100%",
         textDecoration: "none",
@@ -67,12 +67,14 @@ const components = {
         fontWeight: "600",
         fontSize: "7rem",
         color: "white",
+        lineHeight: "100%"
       }),
       medHeader: () => ({
         fontFamily: fonts.heading,
         fontWeight: "400",
         fontSize: "3rem",
         color: "white",
+        lineHeight: "100%"
       }),
       bigNumber: () => ({
         fontFamily: fonts.heading,

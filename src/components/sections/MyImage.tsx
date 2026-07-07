@@ -13,15 +13,15 @@ interface ImageProps{
 export default function MyImage(props: ImageProps) {
   return (
     <Flex
+      my="5rem"
       justifyContent={"space-between"}
       alignItems={"right"}
-      w="90vw"
-      marginLeft={"10rem"}
-      role="banner"
-      aria-label="banner"
-      paddingX={"15rem"}
-      paddingY={"2rem"}
+      w="100%"
+      role="image"
+      aria-label="image"
       flexDir={"column"}
+        px={{lg: "20rem", md: "10rem", base: "2rem"}}
+      gap="1rem"
     >
       <Image src={props.src} />
       <ChakraLink

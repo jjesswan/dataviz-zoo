@@ -27,7 +27,7 @@ export default function Stat(props: StatProps) {
         borderStyle="solid"
         marginTop="1rem"
       />
-      <Text variant="smallNumber" maxWidth="50%" textAlign={"right"}>
+      <Text variant="smallNumber" maxWidth={{md: "50%", base: "80%"}} textAlign={"right"}>
         {props.text}
       </Text>
     </Stack>

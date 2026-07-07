@@ -10,15 +10,12 @@ export default function Significance() {
       <Flex
         justifyContent={"space-between"}
         alignItems={"center"}
-        w="90vw"
-        marginLeft={"10rem"}
-        role="banner"
-        aria-label="banner"
-        paddingX={"18rem"}
-        paddingY={"2rem"}
+        w="100%"
+        role="section2"
+        aria-label="section2"
+        px={{lg: "20rem", md: "10rem", base: "2rem"}}
         flexDir={"column"}
         gap={"2rem"}
-        paddingTop={"12rem"}
       >
         <Text variant="bigNumber" textAlign={"right"}>
           Why does this matter?

@@ -12,6 +12,9 @@ import Conclusion from "./sections/Conclusion";
 export default function Home() {
   return (
     <div role="main">
+      <Flex w="100vw" flexDir={"column"}>
+
+      
       <Header />
       <RedPanda />
       <MyImage
@@ -33,6 +36,7 @@ export default function Home() {
       ></MyImage>
 
       <Footer />
+      </Flex>
     </div>
   );
 }

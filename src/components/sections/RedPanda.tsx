@@ -8,16 +8,17 @@ export default function RedPanda() {
   return (
     <div id="one">
       <Flex
-        justifyContent={"space-between"}
         alignItems={"center"}
-        w="90vw"
-        marginLeft={"10rem"}
-        role="banner"
-        aria-label="banner"
-        paddingX={"15rem"}
+        w="100%"
+        marginLeft={{lg: "10rem", base: "0rem"}}
+        px={{md: "10rem", base: "2rem"}}
+        role="section1"
+        aria-label="section1"
         paddingY={"2rem"}
+        flexDir={{lg: "row", base: "column"}}
+        gap="5rem"
       >
-        <Flex width={"40%"}>
+        <Flex width={{lg: "40%", base: "100%"}}>
           <Text variant="body">
             Red pandas, legally protected in several Asian countries, face
             critical threats including habitat loss, human interference, and
